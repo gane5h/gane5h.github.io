@@ -6,7 +6,8 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "./node_modules/.bin/gatsby build",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "gatsby": "./node_modules/.bin/gatsby"
   },
   "dependencies": {
     "gatsby": "^2.18.12",
