@@ -8,16 +8,16 @@ module.exports = {
   // Customize your site metadata:
   siteMetadata: {
     title: `My Blog Title`,
-    author: `My Name`,
+    author: `Ganesh Swami`,
     description: `My site description...`,
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
+        url: `https://twitter.com/gane5h`,
       },
       {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/gane5h`,
       },
     ],
   },
