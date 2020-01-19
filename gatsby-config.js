@@ -1,24 +1,37 @@
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-theme-blog`,
+      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {},
     },
   ],
   // Customize your site metadata:
+
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `Ganesh Swami`,
-    description: `My site description...`,
-    social: [
+    siteTitle: `Ganesh Swami`,
+    siteHeadline: `Head`,
+    siteTitleAlt: `Ganesh Swami`,
+    author: `@gane5h`,
+    siteDescription: `Notes on Entrepreneurship, Adventure and Speaking.`,
+    navigation: [
       {
-        name: `twitter`,
+        title: `Blog`,
+        slug: `/blog`,
+      },
+      {
+        title: `About`,
+        slug: `/about`,
+      },
+    ],
+    externalLinks: [
+      {
+        name: `Twitter`,
         url: `https://twitter.com/gane5h`,
       },
       {
-        name: `github`,
-        url: `https://github.com/gane5h`,
-      },
+        name: `LinkedIn`,
+        url: `https://www.linkedin.com/in/ganswami/`
+      }
     ],
   },
 }

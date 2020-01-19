@@ -10,8 +10,8 @@
     "gatsby": "./node_modules/.bin/gatsby"
   },
   "dependencies": {
+    "@lekoarts/gatsby-theme-minimal-blog": "^1.2.1",
     "gatsby": "^2.18.12",
-    "gatsby-theme-blog": "^1.2.7",
     "gatsby-cli": "^2.8.27",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
